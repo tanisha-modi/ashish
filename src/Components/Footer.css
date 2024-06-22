@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Footer-container{
+    background-color: #03030B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+}
+.contact-us{
+    font-size: 2rem;
+    font: 400;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    text-align: top;
+    margin: 0.2rem;
+}
+.mail, .whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 800px){
+    .mail, .whatsapp{
+        margin-right: 0rem;
+    }
+}
